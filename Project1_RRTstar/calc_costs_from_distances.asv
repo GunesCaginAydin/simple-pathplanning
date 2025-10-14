@@ -1,0 +1,14 @@
+function totcosts = calc_costs_from_distances(tree)
+    tree_len = length(tree);
+    for arg = 2:tree_len
+        current_parent = tree(arg).parent;
+        current_config = arg;
+        current_cost = 0;
+        while current_config ~= 0
+            current_cost = current_cost + tree(current_config).mindist;
+            current_config = tree(current_config).parent;
+        end
+
+    end
+
+end
