@@ -16,9 +16,7 @@ $$
 
 where $C(q)$ is the cost to arrive at node $q$ at each iteration.
 
-![Translational Dijkstra](./assets/image-1.png)
-
-![Diagonal Dijkstra](./assets/image-2.png)
+![Translational Dijkstra](./assets/image-1.png) ![Diagonal Dijkstra](./assets/image-2.png)
 
 ## A*
 
@@ -30,9 +28,7 @@ $$
 
 where $C_{1}(q)$ is the cost to arrive and $C_{2}(q) is the cost to go heuristic$ at node $q$ at each iteration.
 
-![Simple A*](./assets/image-3.png)
-
-![Semi-Heuristic A*](./assets/image-4.png)
+![Simple A*](./assets/image-3.png) ![Semi-Heuristic A*](./assets/image-4.png)
 
 ![Greedy Search](./assets/image-5.png)
 
@@ -40,21 +36,13 @@ where $C_{1}(q)$ is the cost to arrive and $C_{2}(q) is the cost to go heuristic
 
 📍Evaluates admissable space configurations on a random sampling basis, hence the name rapidly exploring random trees - RRT.
 
-![RRT](./assets/image-6.png)
-
-![RRT - 2nd Search](./assets/image-7.png)
+![RRT](./assets/image-6.png) ![RRT - 2nd Search](./assets/image-7.png)
 
 ## RRT*
 
 📍Evaluates and updates on each iteration possible links based on an heuristic optimization rule allowing for the stochaisticity to be minimalized.
 
-<p float="left">
-    <img src=./assets/image-10.png>
-    <img src=./assets/image-11.png>
-</p>
-![RRT*](./assets/image-10.png)
-
-![RRT* - Extended Search](./assets/image-11.png)
+![RRT*](./assets/image-10.png) ![RRT* - Extended Search](./assets/image-11.png)
 # Scripts
 
 The results presented are obtained on a modern CPU. Any Intel/AMD configuration that is from the last 10 years should suffice.
