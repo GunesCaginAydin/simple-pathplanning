@@ -16,8 +16,13 @@ $$
 
 where $C(q)$ is the cost to arrive at node $q$ at each iteration.
 
-![Translational Dijkstra](./assets/image-1.png){: style="width100px"}
-![Diagonal Dijkstra](./assets/image-2.png){: style="width100px"}
+<p align="center">
+  <img width="460" height="300" src="./assets/image-1.png">
+</p>
+
+<p align="center">
+  <img width="460" height="300" src="./assets/image-2.png">
+</p>
 
 ## A*
 
