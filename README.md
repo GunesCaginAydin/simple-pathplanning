@@ -34,24 +34,42 @@ $$
 
 where $C_{1}(q)$ is the cost to arrive and $C_{2}(q) is the cost to go heuristic$ at node $q$ at each iteration.
 
-![Simple A* wi](./assets/image-3.png){: style="width100px"}
-![Semi-Heuristic A*](./assets/image-4.png){: style="width100px"}
+<p align="center">
+  <img width="460" height="300" src="./assets/image-3.png">
+</p>
 
-![Greedy Search](./assets/image-5.png){: style="width100px"}
+<p align="center">
+  <img width="460" height="300" src="./assets/image-4.png">
+</p>
+
+<p align="center">
+  <img width="460" height="300" src="./assets/image-5.png">
+</p>
 
 ## RRT
 
 📍Evaluates admissable space configurations on a random sampling basis, hence the name rapidly exploring random trees - RRT.
 
-![RRT](./assets/image-6.png){: style="width100px"}
-![RRT - 2nd Search](./assets/image-7.png){: style="width100px"}
+<p align="center">
+  <img width="460" height="300" src="./assets/image-6.png">
+</p>
+
+<p align="center">
+  <img width="460" height="300" src="./assets/image-7.png">
+</p>
 
 ## RRT*
 
 📍Evaluates and updates on each iteration possible links based on an heuristic optimization rule allowing for the stochaisticity to be minimalized.
 
-![RRT*](./assets/image-10.png){: style="width100px"}
-![RRT* - Extended Search](./assets/image-11.png){: style="width100px"}
+<p align="center">
+  <img width="460" height="300" src="./assets/image-10.png">
+</p>
+
+<p align="center">
+  <img width="460" height="300" src="./assets/image-11.png">
+</p>
+
 # Scripts
 
 The results presented are obtained on a modern CPU. Any Intel/AMD configuration that is from the last 10 years should suffice.
