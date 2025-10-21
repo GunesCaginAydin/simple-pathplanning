@@ -11,7 +11,7 @@ An intiutive MATLAB based implementation of popular traditional grid-based and s
 📍Evaluates shortest distance to the start amongst every neighbour at each iteration (cost-to-go):
 
 $$
-\math{q = min[C(q)]}
+q = min[C(q)]
 $$
 
 where $C(q)$ is the cost to arrive at node $q$ at each iteration.
@@ -25,10 +25,10 @@ where $C(q)$ is the cost to arrive at node $q$ at each iteration.
 📍Evaluates shortest distance with heuristic additional amongst every neighbout at each iteration (cost-to-go + cost-to-arrive estimation)
 
 $$
-\math{q = min[C(q)]}
+q = min[C_{1}(q) + C_{2}(q)]
 $$
 
-where $C(q)$ is the cost to arrive at node $q$ at each iteration.
+where $C_{1}(q)$ is the cost to arrive and $C_{2}(q) is the cost to go heuristic$ at node $q$ at each iteration.
 
 ![Simple A*](./assets/image-3.png)
 
@@ -48,10 +48,13 @@ where $C(q)$ is the cost to arrive at node $q$ at each iteration.
 
 📍Evaluates and updates on each iteration possible links based on an heuristic optimization rule allowing for the stochaisticity to be minimalized.
 
-![RRT*](./assets/image-9.png)
+<p float="left">
+    <img src=./assets/image-10.png>
+    <img src=./assets/image-11.png>
+</p>
+![RRT*](./assets/image-10.png)
 
-![RRT* - Extended Search](./assets/image-9.png)
-
+![RRT* - Extended Search](./assets/image-11.png)
 # Scripts
 
 The results presented are obtained on a modern CPU. Any Intel/AMD configuration that is from the last 10 years should suffice.
@@ -68,6 +71,6 @@ Note that the exact pixel locations may not be perfectly identified due to the b
 
 It is possible to run each path finding algorithm referring to its main file and running it through the MATLAB compiler. For example, in order to find sub-optimal paths on a given map using A*, it is enough to navigate to the script
 
-XX
+    main_Astar.m
 
 and compile.
