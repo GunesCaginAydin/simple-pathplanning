@@ -16,9 +16,9 @@ $$
 
 where $C(q)$ is the cost to arrive at node $q$ at each iteration.
 
-![Translational Dijkstra](image-1.png)
+![Translational Dijkstra](./assets/image-1.png)
 
-![Diagonal Dijkstra](image-2.png)
+![Diagonal Dijkstra](./assets/image-2.png)
 
 ## A*
 
@@ -30,27 +30,27 @@ $$
 
 where $C(q)$ is the cost to arrive at node $q$ at each iteration.
 
-![Simple A*](image-3.png)
+![Simple A*](./assets/image-3.png)
 
-![Semi-Heuristic A*](image-4.png)
+![Semi-Heuristic A*](./assets/image-4.png)
 
-![Greedy Search](image-5.png)
+![Greedy Search](./assets/image-5.png)
 
 ## RRT
 
 📍Evaluates admissable space configurations on a random sampling basis, hence the name rapidly exploring random trees - RRT.
 
-![RRT](image-6.png)
+![RRT](./assets/image-6.png)
 
-![RRT - 2nd Search](image-7.png)
+![RRT - 2nd Search](./assets/image-7.png)
 
 ## RRT*
 
 📍Evaluates and updates on each iteration possible links based on an heuristic optimization rule allowing for the stochaisticity to be minimalized.
 
-![RRT*](image-9.png)
+![RRT*](./assets/image-9.png)
 
-![RRT* - Extended Search](image-9.png)
+![RRT* - Extended Search](./assets/image-9.png)
 
 # Scripts
 
